@@ -4,7 +4,7 @@ title:  "The Secret of Monkey Island"
 date:   2016-07-19 21:17:00
 categories: jogos monkey pointnclick island
 tags: monkey jogos pointnclick island
-image: /assets/monkey.jpg
+image: /blog/assets/monkey.jpg
 ---
 
 The Secret of Monkey Island [LINK description='Remake de Monkey Island na steam' url='http://store.steampowered.com/app/32360/'] é um jogo Point n' Click desenvolvido pela Lucas Arts e lançado em 1990. Mistura de forma bastante interessante puzzles complexos (considerando o que existe no mercado atual de jogos) com uma grande dose de humor.

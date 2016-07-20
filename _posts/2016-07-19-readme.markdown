@@ -4,7 +4,7 @@ title:  "Leia-me"
 date:   2016-07-19 21:16:00
 categories: leiame leia readme
 tags: leiame leia readme
-image: /assets/screenshot.jpg
+image: {{ site.baseurl.github }}assets/screenshot.jpg
 ---
 
 Intro

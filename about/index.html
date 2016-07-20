@@ -1,0 +1,52 @@
+---
+layout: post
+title: Blogging Like a Hacker
+---
+<html>
+<head>
+
+<title>{{ page.title }}</title>
+</head>
+
+<body>
+
+
+<h1> Bons Posts </h1>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+
+<!--
+<h1>O bom link:</h1>
+<p>https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html</p>
+
+
+<h1>principais comandos do git:</h1>
+<ul>
+
+<li>git status // = Pending Changes
+
+</li><li>git add . // Include
+</li><li>git add <file> // Include no arquivo selecionado
+
+</li><li>?? git checkout -- <file> ?? // Undo (verificar veracidade da informação)
+
+</li><li>git commit -m '<message>' // Check In
+
+</li><li>git push origin master   //onde master é a branch // Faz o merge das tuas alterações com a branch selecionada / efetiva os commits
+
+</li><li>git branch <branch> //criar uma nova branch obs.: eu usava git -b <branch> mas dessa vez n pegou, vai saber...
+
+</li><li>git checkout <branch> // troca de branch
+</li>
+</ul>
+-->
+
+</body>
+</html>
