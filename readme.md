@@ -90,11 +90,8 @@ Como é feita a integração com o analytics
 
 Como é feita a integração com o Disqus
 
-teste de texto para comitar
-
 ## Links
 
 1. http://jekyllrb.com/
 2. http://rodrigocarvalho.blog.br/facilitando-o-uso-do-github-pages/
 3. https://mademistakes.com/articles/using-jekyll-2016/
-4. mais um teste
