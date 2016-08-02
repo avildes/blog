@@ -145,11 +145,34 @@ e passar o link da seguinte forma:
 </audio>
 ```
 
-**Como linkar um post a outro post**
-
-**Formatação do texto**
-
 **Drafts**
+
+Artigos ainda em desenvolvimento podem ser guardados numa pasta chamada de 'drafts' ou na pasta _posts com o atributo 'published' marcado como 'false'. O atributo 'published' é opcional e caso não seja fornecido será considerado como 'true', ou seja, o arquivo será publicado. Exemplo:
+
+```
+Um post dessa forma na pasta '_posts' será publicado: 
+  ---
+  layout: post
+  title:  "The Secret of Monkey Island"
+  date:   2016-07-19 21:17:00
+  categories: jogos monkey pointnclick island
+  tags: monkey jogos pointnclick island
+  image: assets/monkey.jpg
+  ---
+  
+  Esse mesmo post escrito da seguinte forma NÃO será publicado:
+  ---
+  layout: post
+  title:  "The Secret of Monkey Island"
+  date:   2016-07-19 21:17:00
+  categories: jogos monkey pointnclick island
+  tags: monkey jogos pointnclick island
+  image: assets/monkey.jpg
+  published: false
+  ---
+```
+
+**Como linkar um post a outro post**
 
 ## Desenvolvendo
 
