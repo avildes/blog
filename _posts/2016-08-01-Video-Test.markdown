@@ -31,14 +31,7 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-Audio Test:
 
-<audio controls>
-   <source src="https://{{ site.burl }}assets/audio/android.mp3"
-           type='audio/mp3'>
-   <!-- The next line will only be executed if the browser doesn't support the <audio> tag-->
-   <p>Your user agent does not support the HTML5 Audio element.</p>
-</audio>
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
