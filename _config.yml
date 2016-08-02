@@ -9,6 +9,19 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url:  "avildes.github.io/blog/" # the base hostname & protocol for your site
 burl: "avildes.github.io/blog/"
 
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: post
+      permalink: none
+
+
+
+
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -37,8 +50,6 @@ disqus: caderno-do-concurseiro
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-81639835-1
-
-
 
 # Build settings
 markdown: kramdown
