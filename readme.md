@@ -57,7 +57,15 @@ Vai ser necessário preencher:
   image: assets/novapasta/monkey.jpg
 ```
 
-Para chamar um arquivo dentro do post é preciso seguir o seguinte padrão:
+Para chamar uma imagem dentro do post é preciso seguir o seguinte padrão:
+
+```
+<img src="https://{{ site.burl }}caminhodaimagem.extensaodoarquivo" class="image featured" />
+
+ex:
+<img src="https://{{ site.burl }}assets/screenshot.jpg" class="image featured" />
+```
+
 
   - estrutura de um post
 

@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "Video and Audio Test"
+date:   2016-08-01 16:53:07
+categories: jekyll update
+tags: jekyll update
+image: images/pic01.jpg
+---
+
+Para carregar um video é preciso ir no youtube e copiar o embed code e colar na pagina. O código fica dessa forma:
+
+```
+<iframe width="854" height="480" src="https://www.youtube.com/embed/tBPA-TWw1ko" frameborder="0" allowfullscreen></iframe>
+```
+
+Exemplo do vídeo gerado por esse código:
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/tBPA-TWw1ko" frameborder="0" allowfullscreen></iframe>
+
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
+
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Teste do vídeo com a mesa classe usada para as imagens:
+
+<a class="image featured">
+  <iframe width="854" height="480" src="https://www.youtube.com/embed/tBPA-TWw1ko" frameborder="0" allowfullscreen></iframe>
+<a/>
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Audio Test:
+
+<audio controls>
+   <source src="https://{{ site.burl }}assets/audio/android.mp3"
+           type='audio/mp3'>
+   <!-- The next line will only be executed if the browser doesn't support the <audio> tag-->
+   <p>Your user agent does not support the HTML5 Audio element.</p>
+</audio>
+
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
