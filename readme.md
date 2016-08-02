@@ -160,7 +160,7 @@ Um post dessa forma na pasta '_posts' será publicado:
   image: assets/monkey.jpg
   ---
   
-  Esse mesmo post escrito da seguinte forma NÃO será publicado:
+Esse mesmo post escrito da seguinte forma NÃO será publicado:
   ---
   layout: post
   title:  "The Secret of Monkey Island"
