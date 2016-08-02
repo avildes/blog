@@ -12,10 +12,10 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-<iframe class="image" width="854" height="480" src="https://www.youtube.com/embed/tBPA-TWw1ko" frameborder="0" allowfullscreen></iframe>
+<iframe class="image featured" width="854" height="480" src="https://www.youtube.com/embed/tBPA-TWw1ko" frameborder="0" allowfullscreen></iframe>
 
 
-<img src="https://{{ site.burl }}images/pic0002.jpg" class="image featured" />
+<!-- <img src="https://{{ site.burl }}images/pic0002.jpg" class="image featured" /> -->
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
