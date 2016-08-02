@@ -57,6 +57,8 @@ Vai ser necessário preencher:
   image: assets/novapasta/monkey.jpg
 ```
 
+**Padrões para imagens e vídeos:**
+
 Para chamar uma imagem dentro do post é preciso seguir o seguinte padrão:
 
 ```
@@ -66,29 +68,84 @@ ex:
 <img src="https://{{ site.burl }}assets/screenshot.jpg" class="image featured" />
 ```
 
-Uso de links:
+Para chamar um video dentro do post o padrão é:
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+```
+<iframe class="image featured" width="854" height="480" src="https://www.youtube.com/embed/tBPA-TWw1ko" frameborder="0" allowfullscreen></iframe>
+```
+
+#### ATENÇÃO
+
+A diferença entre esse 'iframe' e o iframe que o youtube coloca é:
+
+```
+class="image featured"
+```
+
+é importante não esquecer de adicionar esse atributo ao iframe para garantir que o vídeo é exibido corretamente na página.
+
+--------
+
+**Usar Links**
+
+Para utilizar links na pagina basta colocar o nome que deve ficar em texto entre colchetes e em seguida, sem separação, um nome que defina o link. No fim do arquivo deve existir o seguinte:
+
+```
+[nome-que-define-o-link-sem-espacos]: http://link.com
+
+ex:
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
+```
+
+O exemplo completo ficaria:
+
+```
+É possível encontrar a [pagina oficial do jekyll][jekyll] e o [projeto][jekyll-gh] nos links.
+Mais um [link][jekyll-help].
+
+Texto.
+Texto e mais texto.
+Fim do post.
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help
+```
 
-
-  - estrutura de um post
-
-
-
-**Como chamar links para pastas guardadas no repositorio**
-
-**Como linkar um post a outro post**
-
-**Padrões para imagens e vídeos:**
-- tamanho das imagens e gifs
-- tamanho da area usada pelo video
-- código para fazer o embed sem quebrar o design
+Vale ressaltar que essas ultimas linhas, as que são referentes aos links, não vão aparecer no post.
 
 **Postar audios**
+
+Para chamar um audio dentro do post o código é o seguinte:
+
+```
+<audio controls>
+   <source src="https://{{ site.burl }}assets/audio/android.mp3"
+           type='audio/mp3'>
+   <!-- The next line will only be executed if the browser doesn't support the <audio> tag-->
+   <p>Your user agent does not support the HTML5 Audio element.</p>
+</audio>
+```
+
+De preferência não colocar o audio no github. A melhor opção é usar algum site como host, exemplo:
+
+**https://clyp.it/**
+
+e passar o link da seguinte forma:
+
+
+```
+<audio controls>
+   <source src="https://clyp.it/caminho/android.mp3"
+           type='audio/mp3'>
+   <!-- The next line will only be executed if the browser doesn't support the <audio> tag-->
+   <p>Your user agent does not support the HTML5 Audio element.</p>
+</audio>
+```
+
+**Como linkar um post a outro post**
 
 **Formatação do texto**
 
