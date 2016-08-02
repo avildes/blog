@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 tags:
   - bananas
 image: assets/monkey.jpg
