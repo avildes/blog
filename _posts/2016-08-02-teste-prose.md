@@ -4,6 +4,8 @@ published: false
 tags:
   - bananas
 image: assets/monkey.jpg
+date:   2016-08-01 16:53:07
+categories: jekyll update
 title: test
 ---
 ## A New Post
