@@ -15,17 +15,12 @@ Para carregar um video é preciso ir no youtube e copiar o embed code e colar na
 
 Exemplo do vídeo gerado por esse código:
 
-<iframe width="854" height="480" src="https://www.youtube.com/embed/tBPA-TWw1ko" frameborder="0" allowfullscreen></iframe>
+<iframe class="image featured" width="854" height="480" src="https://www.youtube.com/embed/tBPA-TWw1ko" frameborder="0" allowfullscreen></iframe>
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Teste do vídeo com a mesa classe usada para as imagens:
-
-<a class="image featured">
-  <iframe width="854" height="480" src="https://www.youtube.com/embed/tBPA-TWw1ko" frameborder="0" allowfullscreen></iframe>
-<a/>
 Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}
