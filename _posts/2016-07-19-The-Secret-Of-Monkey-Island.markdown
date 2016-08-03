@@ -2,7 +2,7 @@
 layout: post
 title:  "The Secret of Monkey Island"
 date:   2016-07-19 21:17:00
-categories: jogos monkey pointnclick island
+category: Jogos
 tags: monkey jogos pointnclick island
 image: assets/monkey.jpg
 ---
